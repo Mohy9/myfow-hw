@@ -1,0 +1,17 @@
+.reservation-page-container {
+  padding: 16px;
+
+  /* Tablet layout */
+  @media screen and (min-width: 768px) {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 16px;
+  }
+
+  /* Desktop layout */
+  @media screen and (min-width: 1200px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

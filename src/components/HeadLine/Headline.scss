@@ -1,0 +1,10 @@
+.headline {
+  display: flex;
+  grid-column: 1 / -1;
+  margin-bottom: 1rem;
+
+  &__title {
+    font-size: 1.375rem;
+    font-weight: 600;
+  }
+}
